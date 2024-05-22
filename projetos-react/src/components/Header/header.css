@@ -1,0 +1,53 @@
+* {
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.header {
+    padding: 2%;
+    margin-bottom: 2%;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .iconMedia {
+    display: flex;
+    align-items: center;
+  }
+  
+  .iconMedia img {
+    margin-right: 5px; /* Espaçamento entre a imagem e o texto */
+    width: 20px; /* Largura da imagem */
+    height: 20px; /* Altura da imagem */
+  }
+  
+  .linkIcon {
+    width: 20px; /* Largura da imagem */
+    height: 20px; /* Altura da imagem */
+  }
+
+
+  .profile {
+    margin-left: auto; /* Empurra o item para a extrema direita */
+  }
+  
+  .profile img {
+    width: 100px; /* Ajuste a largura da imagem do perfil */
+    height: 100px; /* Ajuste a altura da imagem do perfil */
+    border-radius: 50%; /* Torna a imagem circular */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Adiciona uma sombra branca */
+  }
